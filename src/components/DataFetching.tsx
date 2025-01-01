@@ -26,7 +26,7 @@ interface Table2Data {
 }
 
 const DataFetching: React.FC = () => {
-  const [data, setData] = useState<CropData[]>([]);
+  const [_data, setData] = useState<CropData[]>([]);
   const [table1, setTable1] = useState<Table1Data[]>([]);
   const [table2, setTable2] = useState<Table2Data[]>([]);
   const chartRef = useRef<HTMLDivElement>(null);
